@@ -101,10 +101,6 @@ public class BallBehaviour : MonoBehaviour {
                 speedY = distToCenter * 1.5f;
             }
 
-            //Sinon si il rebondit en haut on renvoie la balle avec un angle de 
-
-
-
         }
 
         if (collision.transform.tag == "Mur")
