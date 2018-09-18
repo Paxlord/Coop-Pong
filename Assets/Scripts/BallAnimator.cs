@@ -20,7 +20,6 @@ public class BallAnimator : MonoBehaviour {
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-         //Debug.Log("HAHA");
         if(collision.transform.tag == "Mur")
         {
             anim.Play("Bounce animation");
